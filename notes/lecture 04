@@ -79,3 +79,4 @@ Redirection from output as input for next command using "|"
 
 ### For Loops
 - variable denoted by "$i" where "i" changes
+for i in {1...32}; do echo $1
