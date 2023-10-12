@@ -1,0 +1,31 @@
+# Lecture 03
+ ## Basics of VSCode
+    > Source Control panel--what connects to Git for version control
+        after saving a file, can 'commit' from 'staged' with descriptive message
+        then, 'sync changes'
+## Minimum Requirements for reproducible computational biology
+    > annotated data
+    > documented code for data analysis
+    > defined software environments (versions of software)
+    > standardized organization
+**1 project = 1 GitHub repository**
+        code
+        data
+            raw, intermediate, tables/figures
+        lab notebook
+        presentations
+        manuscripts
+        grants and fellowships
+        discussion
+    > all contained by project
+    > README.md' for overview
+    > '.gitignore' to ignore files that shouldn't be tracked by git
+        .gz or .fastq
+    > '\install' contains software environment
+## File organization
+    > Naming convention
+        files names: no caps, spaces, special characters
+        YYYY-MM-DD
+        experimental labels in file names
+        samples labels with experiment, samples, and replicate
+## Tidy data

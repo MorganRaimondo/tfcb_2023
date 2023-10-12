@@ -1,0 +1,81 @@
+# Lecture 04
+## Intro to Command Line
+
+What can you do with a terminal?
+    > Open terminal by clicking second from the left, top right button (hover: toggle panel)
+
+Translating from English to Linux
+
+command -flag(s) argument
+- ls -ltr test_tfcb_2023
+- |What do you want me to do?| |-What options do you want?| |what should I perform it on?|
+- translation: |list out| |-time sored backwards and fully| |what is in this folder|
+
+**Vocabulary**
+- directory: folder
+- variable:
+- command:
+- argument: grammatically, a noun (what you are forming)
+
+### History
+     > The inferface between humans and the computer
+     > Input/Output changes in technology
+     > Programmers needed to convert their language and programs to a format easy for computers to read
+
+### Commands
+**pwd**: print working directory
+- output: (base) root@adea11422f22:/workspaces/tfcb_2023#
+**cd**: change directory
+**ls**: list directories/files
+- arugments for ls
+    - *.txt
+    - *.doc
+    - *.ppt
+**../**: back up/move up
+**mkdir**: make directory
+**cat**: print
+- from concatenate
+- arguments for cat:
+    - *.txt
+**cd**: moving through directories
+**man**: manual, tells options for flags for each command
+- q and enter to quit and exit man
+**rm**: deletes files
+**mv**: move files
+- mv (input) (output) can rename
+- mv (input) ../ can move directories
+
+**echo $USER**: 
+- show "User" that is logged in
+**echo variable>name_file.txt**
+- makes text file with text "variable"
+
+**>**: write text to file
+- will override what's in the file
+**>>**: add text to file
+
+Ctrl + A to get to the front of the line
+Ctrl + E to get to the end of the line
+Ctrl + C to start a new line without running typed code
+
+### Flags
+Modifies a command, uses "-" in front
+- **man** to check appropriate flags
+ls **-l**: list long format
+ls **-ltr**: lists most recently modified (t), reverse to recent last (r)
+
+### Variables
+Using "$"
+";" allows for multiple commands in same line
+ex: echo today_is=october; echo $today_is
+- output: october
+
+### Pipes
+Redirection from output as input for next command using "|"
+**head**: prints first 10 lines of file
+**tail**: prints last 10 lines of file
+- ex: head -5 file.txt | tail -1 
+    - first 5 lines, then print last of the 5 lines (one line as output)
+
+### For Loops
+- variable denoted by "$i" where "i" changes
