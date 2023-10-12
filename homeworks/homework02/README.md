@@ -24,32 +24,35 @@ Make a single script that prints out a file called question01.txt.
 
 This file should contain the following text:
 
-  My name is (your username, but the script needs to work for anyone, not just you)
+  My username is (your username, but the script needs to work for anyone, not just you)
 
   My home directory is (your home directory, but the script needs to work for anyone, not just you)
 
-  The contents of the tfcb_2022/lectures/lecture04/ directory are
+  The contents of the tfcb_2023/lectures/lecture04/ directory are
 
   (prints the contents of that directory)
 
 This script should also create a directory called homework02, and move question01.txt into the homework02 directory.
 
-Example:
-My name is melody
-My home directory is /Users/melody
-The contents of the tfcb_2022/lectures/lecture04/ directory are
-01-first-steps.md
-02-directories
-03-redirection
-04-vim
-05-history
-06-scripting
-07-more-interactive-shell
-README.md
-quickref.md
-sequence.gb
-slides
-vader.txt
+An example output answer should be:
+
+My username is campbellm <br>
+My home directory is /Users/melody <br>
+The contents of the tfcb_2023/lectures/lecture04/ directory are<br>
+01-first-steps.md<br>
+02-directories<br>
+03-redirection<br>
+04-vim<br>
+05-history<br>
+06-scripting<br>
+07-more-interactive-shell<br>
+README.md<br>
+quickref.md<br>
+sequence.gb<br>
+slides<br>
+vader.txt<br>
+
+_Paste your SCRIPT here (not the output)_
 
 
 ## Problem 2
@@ -68,8 +71,10 @@ file###.txt
 
 the ### should be the numbers from a list you can find here:
 
-tfcb_2022/homeworks/homework02/list.txt
+tfcb_2023/homeworks/homework02/list.txt
 
-You can make the contents of those files whatever you want (hint: slide 10... what was the contents of the fake "jpg" file?)
+You can make the contents of those files whatever you want (hint: slide 9... )
+
+_Paste your SCRIPT here (not the output)_
 
 
