@@ -79,4 +79,15 @@ Redirection from output as input for next command using "|"
 
 ### For Loops
 - variable denoted by "$i" where "i" changes
-for i in {1...32}; do echo $1
+for i in {1...32}; do echo $i
+
+for i in {1..32} ; do echo text_file_$i > text_file_$i.txt ; done
+- makes 32 files with "text_file_" in front of a sequential number.
+
+## Scripts
+*Remember* #!/bin/bash at beginning of script
+Execute a script with **./** before
+
+## Vi 
+doesn't work
+
