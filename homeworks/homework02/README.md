@@ -13,6 +13,9 @@ Complete the interactive tutorial.
 
 _Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
 
+>> `vim` does not work using Docker or the a Windows terminal, even after an additional pull. This made it really difficult to understand this section and therefore the script later on in this homework. I konw that was not anticipated, but there is also no troubleshooting for when this happens. Because of this, I could not complete that part of the tutorial (I tried multiple terminals with and without Docker, and tried downloading access to vim). Similarly, I cannot use `less` due to permission issues/access.
+
+Otherwise, I though the tutorial was very helpful in preparing me for the homework.
 
 ## Problem 1
 
@@ -52,8 +55,17 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-_Paste your SCRIPT here (not the output)_
 
+#!/bin/bash
+
+echo 'My name is' $USER > question01.txt ;
+echo 'My home directory is' $DIRECTORY >> question01.txt ;
+echo 'The contents of the tfcb_2023/lectures/lecture04 directory are' >> question01.txt ;
+ls lectures/lecture04 >> question01.txt
+mkdir homework_02_submission ;
+mv question01.txt homework_02_submission
+
+Using this script requires you to be in the tfcb_2023 directory (where the files and the problem01.sh script is located)
 
 ## Problem 2
 
@@ -75,6 +87,15 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-_Paste your SCRIPT here (not the output)_
+#!/bin/bash
 
+cd homework_02_submission
+mkdir question02
+cd question02
+
+for i in `cat ../../homeworks/homework02/list.txt`
+do echo 'The title of this file is' file$i > file$i.txt
+done
+
+Using this script requires you to be in the tfcb_2023 directory (where the files and the problem02.sh script is located)
 

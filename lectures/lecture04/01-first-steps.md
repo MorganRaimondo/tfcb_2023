@@ -159,7 +159,9 @@ Look at the documentation for the `ls` command to learn about the `-a` flag.
 
 Look at the documentation for the `grep` command to learn about the `-v` flag.
 
+ls ../ | wc -w "count the number of files in the previous directory
 ---
+
 
 Congratulations!
 You now know how to navigate around the file system.

@@ -87,6 +87,9 @@ Make a file that has the date, a picture of Darth Vader, and the list of files i
 You can use multiple commands to achieve this result.
 
 
+cat ../vader.txt > redirection_test.txt
+date >> redirection_test.txt
+ls ../ >> redirection_test.txt
 ---
 
 Congratulations!

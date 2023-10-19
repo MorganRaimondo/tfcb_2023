@@ -1,0 +1,16 @@
+My name is
+My home directory is
+The contents of the tfcb_2023/lectures/lecture04 directory are
+01-first-steps.md
+02-directories
+03-redirection
+04-vim
+05-history
+06-scripting
+07-more-interactive-shell
+README.copy.md
+README.md
+quickref.md
+sequence.gb
+slides
+vader.txt
