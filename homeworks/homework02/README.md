@@ -1,4 +1,5 @@
 # Homework 2: Unix shell
+### Morgan Raimondo
 
 This homework will assess your ability to run commands in the shell and make a simple script.
 
@@ -55,7 +56,7 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-
+Script:
 #!/bin/bash
 
 echo 'My name is' $USER > question01.txt ;
@@ -87,6 +88,7 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
+Script:
 #!/bin/bash
 
 cd homework_02_submission
