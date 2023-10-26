@@ -18,7 +18,7 @@ After these two lectures, you should be able to:
 
 In the second lecture, We will go over the commands presented in the previous session. We will use some of these commands to write a for loop that can automate tasks. We will also learn how to edit a file using vim and how to write and submit a shell script. A signficant portion of this session will be dedicated to working though the tutorial, initially made by [Erick Matsen](https://twitter.com/ematsen). He is much funnier than I am, so all credit to him!
 
-[The slides are here](https://github.com/FredHutch/tfcb_2022/blob/main/lectures/lecture05/slides/2022oct13_MCB536_Lecture05.pdf), and if you missed the lecture [here will be a recorded version](https://washington.zoom.us). 
+[The slides are here](https://github.com/FredHutch/tfcb_2023/blob/main/lectures/lecture05/slides/2023oct12_MCB536_Lecture05.pdf), and if you missed the lecture [here is a recorded version](https://youtu.be/OqwIRaNiLlc). 
 
 ## Tutorial
 
@@ -26,10 +26,6 @@ This is an interactive tutorial to teach you about navigating the shell.
 
 To get started,
 [access the unix shell on your computer](https://github.com/FredHutch/tfcb_2022/blob/main/lectures/lecture04/README.md#setup-accessing-a-command-line).
-Make sure you're connected to the Fred Hutch network,
-either on campus via the Marconi wireless network,
-via VPN,
-or using `snail` as described [here](https://fredhutch.github.io/tfcb_2021/software/unix_rhino#off-campus-log-in).
 
 Once you have logged on,
 execute the following commands:
